@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-starter",
+  "version": "1.0.0",
+  "description": "Simple file structure for Tailwind Projects",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./index.css -o ./css/index.css --watch",
+    "build": "npx tailwindcss -i ./index.css -o ./css/index.css --minify"
+  },
+  "author": "hassancodess",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
