@@ -14,7 +14,28 @@
     <!-- FONTS -->
     <title>Bookmark Manager Website</title>
   </head>
-  <body class="bg-rose-500">
-    <h1 class="text-6xl">Welcome</h1>
+  <body class="overflow-x-hidden">
+    <div class="container relative p-6 mx-auto">
+      <!-- Flex Container for Nav Items -->
+      <div class="flex items-center justify-between my-6 space-x-20">
+        <!-- Logo -->
+        <div class="z-30">
+          <img src="/images/logo-bookmark.svg" alt="logo" id="" class="" />
+        </div>
+        <!-- Menu -->
+        <div
+          class="items-center hidden space-x-10 uppercase text-grayishBlue md:flex"
+        >
+          <a href="#" class="tracking-widest hover:text-softRed">Features</a>
+          <a href="#" class="tracking-widest hover:text-softRed">Download</a>
+          <a href="#" class="tracking-widest hover:text-softRed">FAQ</a>
+          <a
+            href="#"
+            class="px-8 py-2 text-white duration-200 border-2 rounded-md shadow-md bg-softRed border-softRed hover:bg-white hover:text-softRed"
+            >Login</a
+          >
+        </div>
+      </div>
+    </div>
   </body>
 </html>
