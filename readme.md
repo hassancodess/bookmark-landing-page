@@ -1,6 +1,6 @@
-# Tailwind Starter
+# Bookmark Manager Landing Page
 
-A simple Tailwind CSS starter template for projects
+My final course project from the Tailwind CSS by Brad Traversy
 
 ## Demo
 
